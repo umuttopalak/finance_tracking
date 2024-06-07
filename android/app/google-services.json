@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442386894936",
+    "project_id": "finance-tracker-umuttopa-dc40a",
+    "storage_bucket": "finance-tracker-umuttopa-dc40a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442386894936:android:7e862588b80c8024253a2d",
+        "android_client_info": {
+          "package_name": "com.umuttopalak.finance_tracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmt6UpIv8oI26w1KcGFrsfXw5fexvq1MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
