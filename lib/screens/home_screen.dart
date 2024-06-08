@@ -2,6 +2,7 @@ import 'package:finance_tracking/widgets/app_scaffold.dart';
 import 'package:finance_tracking/widgets/home_content.dart';
 import 'package:flutter/material.dart';
 
+import '../main.dart';
 import '../services/income.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -23,6 +24,7 @@ class _HomeScreenState extends State<HomeScreen>
     _tabController = TabController(length: 2, vsync: this);
     _tabController.addListener(_handleTabSelection);
     _loadIncomeItems();
+    configureFirebaseMessaging();
   }
 
   @override

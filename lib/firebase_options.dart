@@ -44,9 +44,9 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyBFbz0OuLEpZ_WxCuyhcj_r41O9ouNGFfg',
     appId: '1:442386894936:web:9f2f14832aa03979253a2d',
     messagingSenderId: '442386894936',
-    projectId: 'finance-tracker-umuttopa-dc40a',
-    authDomain: 'finance-tracker-umuttopa-dc40a.firebaseapp.com',
-    storageBucket: 'finance-tracker-umuttopa-dc40a.appspot.com',
+    projectId: 'com.umuttopalak.finance_tracking',
+    authDomain: 'com.umuttopalak.finance_tracking.firebaseapp.com',
+    storageBucket: 'com.umuttopalak.finance_tracking.appspot.com',
     measurementId: 'G-ZMYZYYSQ17',
   );
 
@@ -54,35 +54,35 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyBmt6UpIv8oI26w1KcGFrsfXw5fexvq1MA',
     appId: '1:442386894936:android:7e862588b80c8024253a2d',
     messagingSenderId: '442386894936',
-    projectId: 'finance-tracker-umuttopa-dc40a',
-    storageBucket: 'finance-tracker-umuttopa-dc40a.appspot.com',
+    projectId: 'com.umuttopalak.finance_tracking',
+    storageBucket: 'com.umuttopalak.finance_tracking.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAwT7my4cPSQmL3Ur3lwhZr_dBWIX9xPdc',
     appId: '1:442386894936:ios:a5205b0272386e16253a2d',
     messagingSenderId: '442386894936',
-    projectId: 'finance-tracker-umuttopa-dc40a',
-    storageBucket: 'finance-tracker-umuttopa-dc40a.appspot.com',
-    iosBundleId: 'com.example.financeTracking',
+    projectId: 'com.umuttopalak.finance_tracking',
+    storageBucket: 'com.umuttopalak.finance_tracking.appspot.com',
+    iosBundleId: 'com.umuttopalak.finance_tracking',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyAwT7my4cPSQmL3Ur3lwhZr_dBWIX9xPdc',
     appId: '1:442386894936:ios:a5205b0272386e16253a2d',
     messagingSenderId: '442386894936',
-    projectId: 'finance-tracker-umuttopa-dc40a',
-    storageBucket: 'finance-tracker-umuttopa-dc40a.appspot.com',
-    iosBundleId: 'com.example.financeTracking',
+    projectId: 'com.umuttopalak.finance_tracking',
+    storageBucket: 'com.umuttopalak.finance_tracking.appspot.com',
+    iosBundleId: 'com.umuttopalak.finance_tracking',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
     apiKey: 'AIzaSyBFbz0OuLEpZ_WxCuyhcj_r41O9ouNGFfg',
     appId: '1:442386894936:web:120bd2847003708a253a2d',
     messagingSenderId: '442386894936',
-    projectId: 'finance-tracker-umuttopa-dc40a',
-    authDomain: 'finance-tracker-umuttopa-dc40a.firebaseapp.com',
-    storageBucket: 'finance-tracker-umuttopa-dc40a.appspot.com',
+    projectId: 'com.umuttopalak.finance_tracking',
+    authDomain: 'com.umuttopalak.finance_tracking.firebaseapp.com',
+    storageBucket: 'com.umuttopalak.finance_tracking.appspot.com',
     measurementId: 'G-Y1767VV9SX',
   );
 
