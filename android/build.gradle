@@ -1,7 +1,19 @@
+buildscript {
+    repositories {
+        google()  // Gerekli repository
+        mavenCentral()  // Alternatif olarak kullanabilirsiniz
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.4'  // Android Gradle plugin
+        classpath 'com.google.gms:google-services:4.3.10'  // Google Services plugin
+    }
+}
+
 allprojects {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 }
 
