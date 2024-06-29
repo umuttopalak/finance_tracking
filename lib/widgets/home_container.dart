@@ -18,10 +18,7 @@ class HomeContainer extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            title,
-            style: bold18TextStyle
-          ),
+          Text(title, style: bold18TextStyle),
           const Divider(thickness: 1),
           if (items != null && items!.isNotEmpty)
             Column(
@@ -29,24 +26,18 @@ class HomeContainer extends StatelessWidget {
               children: items!.map((item) {
                 return Row(
                   children: [
-                   
                     Checkbox(
-                      value: false, // Checkbox değeri burada belirlenmeli
-                      onChanged: (newValue) {
-                        // Onay kutusunun değeri değiştiğinde yapılacak işlem
-                      },
+                      value: false,
+                      onChanged: (newValue) {},
                     ),
-                   Text(item),
+                    Text(item),
                   ],
                 );
               }).toList(),
             ),
           if (items == null || items!.isEmpty)
             Center(
-              child: Text(
-                'No items available',
-                style: italicGreyTextStyle
-              ),
+              child: Text('No items available', style: italicGreyTextStyle),
             ),
         ],
       ),

@@ -7,12 +7,12 @@ class AppScaffold extends StatelessWidget {
   final TabController? tabController;
 
   const AppScaffold({
-    Key? key,
+    super.key,
     required this.title,
     required this.tabs,
     required this.tabViews,
     this.tabController,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

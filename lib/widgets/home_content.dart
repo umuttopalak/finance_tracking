@@ -1,14 +1,17 @@
-import 'package:finance_tracking/services/income.dart';
 import 'package:finance_tracking/widgets/home_container.dart';
 import 'package:flutter/material.dart';
 
 class HomeContent extends StatelessWidget {
-  final List<String> items;
+  final List<String> incomeItems;
+  final List<String> expenseItems;
+
 
   const HomeContent({
-    Key? key,
-    required this.items,
-  }) : super(key: key);
+    super.key,
+    required this.incomeItems,
+    required this.expenseItems,
+
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -17,22 +20,18 @@ class HomeContent extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          HomeContainer(
+          const HomeContainer(
             title: "Upcoming Payments",
-            items: items,
+            items: [],
           ),
           HomeContainer(
             title: "Income",
-            items: items,
+            items: incomeItems,
           ),
           HomeContainer(
             title: "Outcome",
-            items: items,
-          ),
-          ElevatedButton(
-            child: Text("Çalıştır"),
-            onPressed: () => checkPayments(context),
-          ),
+            items: expenseItems,
+          )
         ],
       ),
     );
